@@ -1,0 +1,91 @@
+.backdrop-filter-roomLobby{
+    background-color: rgba(0, 0, 0, 0.962);
+    opacity: 0.9;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+.headingBox{
+    width: 100%;
+    display: block;
+    height: 100px;
+
+    font-size: 30px;
+    color: white;
+
+    text-align: center;
+}
+
+.versusBox{
+    display: flex;
+    align-items: center;
+    min-width: 1216px;
+
+    width: 70%;
+    justify-content: space-between;
+}
+
+.player1stInfo h2{
+    color: green;
+}
+
+.player2ndInfo h2{
+    color: rgb(206, 39, 206);
+}
+
+.versusDiv{
+    color: white;
+    font-size: 48px;
+}
+
+.readyboxesDiv{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.myReadyCheck{
+    background-color: rgb(233, 63, 63);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.myReadyCheck:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.myReadyCheck:active{
+    transform: scale(0.9);
+}
+
+.myReadyCheckGreen{
+    background-color: rgb(76, 225, 62);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.opponentReadyCheck{
+    background-color: rgb(233, 63, 63);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.opponentReadyCheckGreen{
+    background-color: rgb(76, 225, 62);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+}

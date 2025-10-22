@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100%;
+    font-family: "Bitcount Prop Single", system-ui;
+    background-image: url('../GIFsAndImages/landscape-1033_512.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.computerPlayOptionsDiv{
+    min-height: 230px;
+    width: 800px;
+    border-radius: 5px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.486);
+}
+
+.playOptionsTitle{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.computerPlayOptions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.computerPlayOption1{
+    border: 1px solid rgba(0, 0, 0, 0.423);
+    height: 120px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.592);
+    display: flex;
+    flex-direction: column;
+}
+
+.computerPlayOption1 input{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+
+.computerPlayOption2{
+    border: 1px solid rgba(0, 0, 0, 0.412);
+    height: 120px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.592);
+    display: flex;
+    flex-direction: column;
+}
+
+.computerPlayOption2 input{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+
+.optionNameInput{
+    height: 160px;
+    width: 400px;
+    border-radius: 5px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.486);
+}
+
+.nameInputBox{
+    height: 75px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    gap: 12px;
+}
+
+.nameInputBox input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "Bitcount Prop Single", system-ui;
+}
+
+.nameInputBox button{
+    width: 25%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: "Bitcount Prop Single", system-ui;
+    cursor: pointer;
+    transition: 0.13s all;
+}
+
+.GoButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GoButton button{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 75px;
+    font-size: 24px;
+    transition: 0.3s all;
+}
+
+.GoButton button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.GoButton button:active{
+    transform: scale(0.95);
+}

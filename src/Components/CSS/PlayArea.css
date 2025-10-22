@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+
+.mainPlayAreaBackground{
+    height: 100vh;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: "Bitcount Prop Single", system-ui;
+    background-image: url("https://media1.tenor.com/m/PicqP_L449UAAAAd/sonic-the-hedgehog-sonic.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.playerNameHeading h1{
+    color: white;
+
+}
+
+.tictactoeBox{
+    background-color: rgba(255, 255, 255, 0.705);
+    box-shadow: 1px 1px 50px  rgba(37, 37, 37, 0.732);
+    backdrop-filter: blur(6px);
+    height: 450px;
+    width: 450px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row{
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.semiBox {
+  height: 150px;
+  width: 150px;
+  border: 1px solid rgba(112, 112, 112, 0.715);
+  border-radius: 10px;
+  transition: all 0.17s;
+  background: rgba(219, 219, 219, 0.525);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.semiBox h1{
+    font-size: 58px;
+}
+
+.semiBox:hover{
+    transform: scale(1.05);
+}
+
+.semiBox:active{
+    transform: scale(0.95);
+}
