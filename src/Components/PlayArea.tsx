@@ -98,9 +98,7 @@ const   PlayArea = ({mode, myName, myMoveSign, opponentName, connectionRef, room
     const newBoard = ticTacToeBox.map(row => [...row]);
     newBoard[rowIndex][colIndex] = myMoveSign;
 
-    setTicTacToeBox(prev => {
-      return newBoard;
-    })
+    setTicTacToeBox(newBoard);
 
     await connectionRef?.current?.invoke("SubmitLatestBoard", newBoard, Number(roomCode), myName, myMoveSign);
   }
@@ -415,7 +413,7 @@ const   PlayArea = ({mode, myName, myMoveSign, opponentName, connectionRef, room
               key={rowIndex}  
             >
               {
-                row.map((col, colIndex) => (
+                row.map((_, colIndex) => (
                   <div
                     className="semiBox"
                     key={colIndex}

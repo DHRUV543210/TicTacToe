@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import backgroundAudio from '/Audios/backgroundMusic.mp3';
 import './App.css'
 import PvPPlayType from './Pages/PvPPlayType';
@@ -13,8 +13,6 @@ const App = () => {
 
   //Back States
   const [backFromPvPMode, setBackFromPvPMode] = useState<boolean>(false);
-  const [backFromComputerMode, setBackFromComputerMode] = useState<boolean>(false);
-  const [backFromFriendMode, setBackFromFriendMode] = useState<boolean>(false);
 
   // Effects
 

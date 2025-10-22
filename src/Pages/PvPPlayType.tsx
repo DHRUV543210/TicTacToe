@@ -11,7 +11,7 @@ interface PvPPlayTypeProp {
     setBackFromPvPMode: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const PvPPlayType: React.FC<PvPPlayTypeProp> = ({ backFromPvPMode, setBackFromPvPMode }) => {
+const PvPPlayType: React.FC<PvPPlayTypeProp> = ({ setBackFromPvPMode }) => {
 
     const [roomType, setRoomType] = useState<string>('');
     const [roomCode, setRoomCode] = useState<string>('');
